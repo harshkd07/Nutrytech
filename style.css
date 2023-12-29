@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border-bottom: 2px solid black;
+    background-color: #f7f7f7
+}
+.navbar-nav{
+    background-color: rgb(227, 227, 227);
+    padding: 5px;
+    border-radius: 5px;
+    color: green;
+}
+.navbar-nav .nav-link{
+    color: green;
+}
+.navbar-nav .nav-link:hover{
+    color: rgb(0, 186, 0);
+}
+.top-banner{
+    background-image: url('https://img.freepik.com/free-vector/technology-banner-with-glowing-perspective-lines_1017-39237.jpg');
+    margin-top: 90px;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat; 
+}
+.inside-banner{
+    padding-top: 100px;
+    padding-left: 20px;
+    color: #fff;
+}
+.banner-btn{
+    background-color: #FFF;
+    color: orange;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+.banner-btn:hover{
+    background-color: #f7f7f7;
+    color: rgb(186, 121, 0);
+}
+.banner-cards{
+    margin-top: -100px;
+}
+.card{
+    margin-bottom: 20px;
+}
+.card i{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    color: orange;    
+}
+.card-title{
+    text-align: center;
+    color: orange;
+}
+.launch-pro{
+    padding: 20px;
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+.launch-pro h4{
+    color: grey;
+}
+
+.instruction-sec{
+    padding: 50px 20px;
+}
+
+.instruction-sec h4{
+    color: grey;
+}
+.instruction-sec .row{
+    margin: 50px 0px;
+}
+.instruction-sec .row i{
+    color: orange;
+}
+.submit-btn{
+    background-color: orange;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.submit-btn:hover{
+    background-color: rgb(197, 128, 0);
+}
+.content-center{
+    text-align: center;
+}
+.content-justify{
+    text-align: justify;
+}
+.pricing-cards ul{
+    list-style: none;
+    text-align: justify;
+}
+.pricing-cards ul li i{
+    font-size:20px ;
+}
+.pricing-cards ul li{
+    border-bottom: 1px solid rgb(166, 166, 166);
+}
+.pricing-sign-up{
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 25px;
+    border: none;
+    outline: none;
+}
+.pricing-sign-up:hover{
+    background-color: rgb(151, 98, 0);
+}
+.custom-box {
+    height: 300px;
+    background-color: #ffffff; /* Light gray background color, adjust as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border:1px solid rgb(144, 144, 144) ;
+    border-top: 4px solid orange;
+    border-radius:10px ;
+  }
+
+  .text-content {
+    width: 60%;
+  }
+
+  .image-content {
+    width: 40%;
+  }
+
+  /* Adjust styling as needed */
+  .text-content p {
+    margin-bottom: 0;
+  }
+
+  .image-content img {
+    max-width: 100%;
+    height: 280px;
+    border-radius: 5px;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+  .image-content img:hover{
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+  }
+  .our-offer-btn{
+    background-color: orange;
+    font-size: 24px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: -170px;
+    width: auto;
+    color: #fff;
+  }
+  .our-offer-btn:hover{
+    background-color: rgb(157, 102, 0);
+  }
+  .ourofferbtn{
+    margin-top: -170px;
+  }
+  .our-offers .col-md-4{
+    padding: 30px;
+  }
+  .our-offers .col-md-12{
+    margin: 20px;
+  }
+  .our-offers .middle-col{
+    margin-top: 120px;
+  }
+  .our-offers .heading{
+    text-align: center; padding:20px; margin-bottom: 40px;
+  }
+  .our-offers{
+    margin-top: 80px;
+  }
+  .our-offers .box2{
+    margin-top: -180px;
+  }
+  .after-offers{
+    margin-top: 150px;
+  }
+  .after-offers img{
+    width: 100%;
+    height: auto;
+  }
+  .after-offers .right-heading{
+    border-bottom: 1px solid grey;
+    padding: 20px;
+  }
+  .after-offers .right{
+    padding: 50px;
+  }
+  .color-boxes {
+    padding: 0px !important;
+  }
+  .color-boxes .box{
+    height: 300px;
+  }
+  .color-boxes .box1{
+    background-color: rgb(171, 255, 88);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  .color-boxes .box2{
+    background-color: rgb(204, 190, 0);
+  }
+  .color-boxes .box3{
+    background-color: rgb(0, 93, 48);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  .color-boxes .box4{
+    background-color: rgb(204, 0, 0);
+  }
+  .color-boxes .box5{
+    background-color: rgb(244, 134, 0);
+  }
+  .color-boxes .box6{
+    background-color: rgb(253, 255, 125);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  .color-boxes .box7{
+    background-color: rgb(115, 102, 215);
+  }
+  .color-boxes .box8{
+    background-color: rgb(255, 134, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+  }
+  .color-boxes img{
+    width: 100%;
+    height: 300px;
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    .ourofferbtn{
+        margin-top: 50px;
+      }
+    .our-offers .middle-col{
+        margin-top: 0px;
+      }
+      .our-offers .box2{
+        margin-top: 0px;
+      }
+      .our-offers{
+        margin-top: 20px;
+      }
+      .our-offers .heading{
+        text-align: center; padding:10px; margin-bottom: 0px;
+      }
+      .our-offers .col-md-4{
+        padding: 0px;
+      }
+      .after-offers{
+        margin-top: 30px;
+      }
+  }
